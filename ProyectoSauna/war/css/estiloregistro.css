@@ -1,0 +1,76 @@
+body {
+	background-image: url("/../fond.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#capa1 {
+	position: absolute;
+	z-index: 40;
+}
+
+
+#capa11 {
+	position: absolute;
+	z-index: 40;
+}
+
+.menu {
+	
+}
+
+
+.nav {
+	padding: 0px 0px;
+}
+
+.nav li a {
+	background-color: #000;
+	color: #D2691E;
+	font-size: 25px;
+	text-decoration: none;
+	padding: 20px 20px;
+	display: block;
+}
+
+.nav li a:hover {
+	background-color: #A9BCF5;
+}
+
+.nav li ul {
+	display: none;
+	position: absolute;
+}
+
+.nav li ul a {
+	font-size: 18px;
+	padding: 12px 35px;
+}
+
+.nav li:hover>ul {
+	display: block;
+}
+
+.nav li ul li {
+	position: relative;
+}
+
+.nav li ul li ul {
+	right: -125px;
+	top: 0px;
+}
+
+.nav li ul li ul a {
+	font-size: 18px;
+	padding: 11px 28px;
+}
+h1, p{
+	margin-left: 17%;
+}

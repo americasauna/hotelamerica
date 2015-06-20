@@ -1,0 +1,66 @@
+
+body {
+	background-image: url("imagen/loll.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul, il {
+	list-style: none;
+}
+
+.navi {
+	padding: 0px 0px;
+}
+
+.navi li a {
+	background-color: #000;
+	color: #D2691E;
+	font-size: 25px;
+	text-decoration: none;
+	padding: 20px 20px;
+	display: block;
+}
+
+.navi li a:hover {
+	background-color: #A9BCF5;
+}
+
+.navi li ul {
+	display: none;
+	position: absolute;
+}
+
+.navi li ul a {
+	font-size: 18px;
+	padding: 12px 35px;
+}
+
+.navi li:hover>ul {
+	display: block;
+}
+
+.navi li ul li {
+	position: relative;
+}
+
+.navi li ul li ul {
+	right: -125px;
+	top: 0px;
+}
+
+.navi li ul li ul a {
+	font-size: 18px;
+	padding: 11px 28px;
+}
+#val, #content {
+	margin-left: 17%;
+	margin-right: 17%;
+}

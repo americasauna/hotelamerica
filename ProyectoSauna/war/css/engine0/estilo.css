@@ -1,0 +1,225 @@
+
+			body{
+			background-color:gray;
+			}
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#capa1 {
+			position:absolute;
+			z-index:40;
+			}
+			#capa11 {
+			position:absolute;
+			z-index:40;
+			}
+			
+			#capa2{
+			z-index:10;
+			}
+			#capa3{
+			z-index:0;
+			}
+			.menu{
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.navi   {
+			
+			padding:0px 0px;
+			
+			}
+			
+			.navi li a {
+				background-color:#000;
+				color:#D2691E;
+				font-size:25px;
+				text-decoration:none;
+				padding:20px 20px;
+				display:block;
+				
+			}
+			
+			.navi li a:hover {
+				background-color:#A9BCF5;
+			}
+			
+			.navi li ul {
+				display:none;
+				position:absolute;
+			}
+			
+			.navi li ul a{
+				font-size:18px;
+				padding:12px 35px;
+			}
+			
+			.navi li:hover > ul {
+				display:block;
+			}
+			
+			.navi li ul li {
+				position:relative;
+				
+			}
+			
+			.navi li ul li ul {
+				right:-125px;
+				top:0px;	
+			}
+			
+			.navi li ul li ul a{
+				font-size:18px;	
+				padding:11px 28px;
+			}
+			
+			.principal{
+			width:100%;
+			max-width:1000px;
+			margin:20px auto;
+			margin-left:190px;
+			z-index:0;
+			
+			}
+			
+			.imagenes{
+			width:100%;
+			z-index:0;
+			}
+			
+			.imagenes img{
+			width:100%;
+			z-index:0;
+			}
+			
+			.maps{
+			margin:10px auto;
+			margin-left:30px;
+			}
+			
+			.pagos{
+			margin:0px auto;
+			}
+			.pagos img{
+			width:60%;
+			z-index:0;
+			margin-left:0px;
+			}
+			.texto{
+			font-family: italic;
+			font-size:23px;
+			}
+			
+			th{
+			width:200px;
+			}
+			
+			
+			#bottom {
+				background: url(images/bottom.gif) left top repeat-y;
+				color: #585858;
+				margin-left: 200px;
+			}
+
+			#bottom h1 { 
+				color: #000000;
+				font-size: 18px;
+				font-weight: 100;
+				text-align: left;
+				padding: 15px 0px 0px 0px;
+				width: 500px;
+			}
+			
+			#b_col1 {
+				width: 144px;
+				float: left;
+				margin-left: 26px;
+				border-right: solid #000000;
+				
+			}
+			#b_col2 {
+				width: 208px;
+				float: left;
+				margin-left: 83px;
+				border-right: solid #000000;
+			}
+			#b_col3 {
+				width: 158px;
+				float: left;
+				margin-left: 102px;
+				text-align: left;
+				border-right: solid #000000;
+			}
+			
+			#b_col4 {
+				width: 165px;
+				float: left;
+				margin-left: 120px;
+				text-align: left;
+				border-right: solid #000000;
+			}
+			
+			.line { border-top: 1px solid #585858;}
+				
+.fu_i {
+	width:10%;
+	padding: 0px 14px 0px 0px;
+	vertical-align: middle ;
+}
+.spis_fu {
+	list-style:none;
+	padding: 0px 0px 0px 0px;}
+
+.spis_fu li {
+	padding: 8px 0px 2px 0px;
+	background: none;
+	}
+	
+.spis_fu li a {
+	color:#585858;
+	text-decoration: none;
+	}
+	
+.spis_fu li a:hover {
+	text-decoration: underline;
+}
+.spis_fu li {
+	padding: 8px 0px 2px 0px;
+	background: none;
+	}
+		.spis_fu li img{
+	width:10%;	
+	}
+	.table{
+	height:500px;
+	width:100%;
+	}
+		#tablaM{
+		border:1px solid white;
+	width:80%;
+	height:300px;
+	background-position:center;
+	background-color:#58D3F7;
+	margin-left:10%;
+	}
+	
+		#tablamm{
+		border:1px solid white;
+	width:50%;
+	height:300px;
+	background-position:center;
+	background-color:#58D3F7;
+	margin-left:25%;
+	}
+.titu{
+font-size:15px;
+font-family:timesNewRoman;
+text-align:justify;
+text-decoration:underline;
+}
+		
