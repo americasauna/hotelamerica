@@ -1,5 +1,5 @@
 /* SLIMBOX */
-
+@CHARSET "UTF-8";
 #lbOverlay {
 	position: fixed;
 	z-index: 9999;

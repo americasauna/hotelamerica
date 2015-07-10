@@ -1,0 +1,129 @@
+@CHARSET "UTF-8";
+
+.idiomas {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.idiomas:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.idiomas > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #30CE31;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#26A322, #18B8B8);
+	background: -o-linear-gradient(#FFFFFF, #EFFFFF);
+}
+
+.cerrar {
+	background: #606061;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.cerrar:hover { background: #00d9ff; }
+.caja{
+	margin-left:5px;
+}
+#error{
+	color:red;
+}
+#enviar{
+	margin-top:5px;
+}
+#boton{
+	background-color:gray;
+	margin:0 auto;
+	width:50px;
+	border:1px solid black;
+}
+.idioma{
+	width:70px;
+	height:18px;
+	background-color:red;
+	padding:3px;
+	margin:0 auto;
+	border-radius:5px;
+}
+.idioma:hover{
+	background-color:gray;
+}
+
+#submitt {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 10px 20px 0;
+    border: 1px solid #ccc;
+    background: #eee;
+	border-radius: 8px 8px 8px 8px;
+}
+
+#submitt:hover {
+	background: #ddd;
+}
+
+.selectt {
+	margin: 20px auto 40px auto;
+	border: 1px solid #d9d9d9;
+	height: 30px;
+	overflow: hidden;
+	width: 230px;
+	position: relative;
+}
+
+.selecttt {
+	background: transparent;
+	border: none;
+	font-size: 14px;
+	height: 30px;
+	padding: 5px;
+	width: 250px;
+}
+
+.selecttt:focus {
+	outline: none;
+}
+
+.selectt::after {
+	content: "\025be";
+	display: table-cell;
+	padding-top: 7px;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	background-color: #d9d9d9;
+	position: absolute;
+	top: 0;
+	right: 0px;
+	pointer-events: none;
+}

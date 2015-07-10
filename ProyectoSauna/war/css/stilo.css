@@ -1,5 +1,6 @@
+@CHARSET "UTF-8";
 body  {
-	background-image: url("/../fond.jpg");
+	background-image: url("/../../fond.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -34,18 +35,7 @@ ul, ol {
 	padding: 0px 0px;
 }
 
-.nav li a {
-	background-color: #000;
-	color: #D2691E;
-	font-size: 25px;
-	text-decoration: none;
-	padding: 20px 20px;
-	display: block;
-}
 
-.nav li a:hover {
-	background-color: #A9BCF5;
-}
 
 .nav li ul {
 	display: none;
@@ -66,7 +56,7 @@ ul, ol {
 }
 
 .nav li ul li ul {
-	right: -125px;
+	right: -190px;
 	top: 0px;
 }
 
@@ -77,7 +67,7 @@ ul, ol {
 
 .principal {
 	width: 100%;
-	max-width: 1000px;
+	max-width: 79%;
 	margin: 30px auto;
 	z-index: 0;
 	right: 0;
@@ -134,37 +124,43 @@ th {
 }
 
 #b_col1 {
-	width: 144px;
+	width: 198px;
+	height: 190px;
 	float: left;
-	margin-left: 26px;
+	margin-left: -7%;
 	border-right: solid #000000;
 }
 
 #b_col2 {
 	width: 208px;
+	height: 190px;
 	float: left;
-	margin-left: 83px;
+	margin-left: 50px;
 	border-right: solid #000000;
 }
 
 #b_col3 {
 	width: 158px;
+	height: 190px;
 	float: left;
-	margin-left: 102px;
+	margin-left: 50px;
 	text-align: left;
 	border-right: solid #000000;
 }
 
 #b_col4 {
-	width: 165px;
+	width: 210px;
+	height: 190px;
 	float: left;
-	margin-left: 120px;
+	margin-left: 50px;
 	text-align: left;
 	border-right: solid #000000;
 }
 
 .line {
 	border-top: 1px solid #585858;
+	margin-left: 7%;
+	width: 86%;
 }
 
 .fu_i {
@@ -228,35 +224,15 @@ table {
 }
 
 form {
-	padding: 30px;
+	padding: 0px;
 	cursor: pointer;
 	display: block;
 	margin: auto auto;
-	font-size: 20px;
-	color: #6F6F6F;
+	font-size: 28px;
+	color: #d26900;
 }
 
-select {
-	background: #ADFFD6;
-	background-repeat: no-repeat;
-	font-size: 20px;
-	border: 0;
-	border-radius: 15px;
-	color: #6F6F6F;
-	width: 250px;
-	height: 50px;
-}
 
-input {
-	background: url(imagen/a.png) no-repeat;
-	width: 120px;
-	height: 30px;
-	border-radius: 15px;
-	color: #e9dec0;
-	border: 0;
-	text-align: right;
-	font-size: 20px;
-}
 
 h2, h2 {
 	font-size: 25px;
@@ -278,3 +254,41 @@ p {
      font-size:20px;
      
 	}
+	.po
+{
+ width: 136px;
+  height: 65px;
+  background-color: #000000;
+  
+}
+.po:hover
+{
+  background-color: #808080;
+}
+.po{
+color: orange;	
+}
+	.sub
+{
+  width: 190px;
+  height: 50px;
+  background-color: #000000;
+  
+}
+.sub:hover
+{
+  background-color: #808080;
+}
+.sub{
+color: orange;	
+}
+
+#horarios {
+	background-image: url('/../atardecer.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 79%;
+	height: 100%;
+	margin: 0 7% 0 7%;
+	right: 0 ; left: 0;
+}

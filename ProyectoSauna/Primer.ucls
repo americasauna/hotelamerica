@@ -1,91 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.8" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true">  
-  <class id="1" language="java" name="sauna.PMF" project="ProyectoSauna" file="/ProyectoSauna/src/sauna/PMF.java" 
+  <class id="1" language="java" name="sauna.Ofertas" project="ProyectoSauna" 
+    file="/ProyectoSauna/src/sauna/Ofertas.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="87" x="2067" y="1643"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="sauna.Horario" project="ProyectoSauna" 
+    file="/ProyectoSauna/src/sauna/Horario.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="148" width="227" x="3410" y="2494"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="beans.Spa" project="ProyectoSauna" file="/ProyectoSauna/src/beans/Spa.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="-298" y="-1923"/>    
+    <position height="387" width="232" x="2194" y="1643"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="sauna.Vistas" project="ProyectoSauna" file="/ProyectoSauna/src/sauna/Vistas.java" 
+  <class id="4" language="java" name="sauna.Reservaciones" project="ProyectoSauna" 
+    file="/ProyectoSauna/src/sauna/Reservaciones.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="284" x="2466" y="1643"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="beans.Restaurante" project="ProyectoSauna" 
+    file="/ProyectoSauna/src/beans/Restaurante.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="183" x="2790" y="1643"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="beans.Trabajador" project="ProyectoSauna" 
+    file="/ProyectoSauna/src/beans/Trabajador.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3171" y="2422"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="beans.Sauna" project="ProyectoSauna" file="/ProyectoSauna/src/beans/Sauna.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="-11" y="-1932"/>    
+    <position height="369" width="244" x="3586" y="1643"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="sauna.GmailServlet" project="ProyectoSauna" 
-    file="/ProyectoSauna/src/sauna/GmailServlet.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="440" y="-1932"/>    
+  <class id="8" language="java" name="beans.Habitacion" project="ProyectoSauna" 
+    file="/ProyectoSauna/src/beans/Habitacion.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="174" x="3372" y="1643"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="sauna.HospedajeReserva" project="ProyectoSauna" 
-    file="/ProyectoSauna/src/sauna/HospedajeReserva.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="764" y="-1932"/>    
+  <class id="9" language="java" name="beans.Cliente" project="ProyectoSauna" 
+    file="/ProyectoSauna/src/beans/Cliente.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="675" width="373" x="3870" y="1643"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="sauna.Trabajador" project="ProyectoSauna" 
-    file="/ProyectoSauna/src/sauna/Trabajador.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="214" y="-1941"/>    
+  <class id="10" language="java" name="beans.Persona" project="ProyectoSauna" 
+    file="/ProyectoSauna/src/beans/Persona.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="585" width="319" x="3013" y="1643"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="sauna.Trabajador.Person" project="ProyectoSauna" 
-    file="/ProyectoSauna/src/sauna/Trabajador.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="215" y="-1614"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="7" language="java" name="sauna.ProyectoSaunaServlet" project="ProyectoSauna" 
-    file="/ProyectoSauna/src/sauna/ProyectoSaunaServlet.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1215" y="-1932"/>    
+  <class id="11" language="java" name="beans.Masajes" project="ProyectoSauna" 
+    file="/ProyectoSauna/src/beans/Masajes.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="166" x="4283" y="1643"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="8" language="java" name="sauna.Cliente" project="ProyectoSauna" 
-    file="/ProyectoSauna/src/sauna/Cliente.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="989" y="-1941"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="9" language="java" name="sauna.Persona" project="ProyectoSauna" 
-    file="/ProyectoSauna/src/sauna/Persona.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1473" y="-1716"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <nesting id="10">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="6"/>  
-  </nesting>  
+  <association id="12">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="13" name="horario">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="14" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="15">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    

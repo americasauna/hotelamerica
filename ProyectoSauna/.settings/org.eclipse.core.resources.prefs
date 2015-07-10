@@ -1,3 +1,4 @@
 eclipse.preferences.version=1
-encoding//war/hospedaje.jsp=UTF-8
-encoding//war/masajes.jsp=UTF-8
+encoding//war/WEB-INF/hospedaje.jsp=UTF-8
+encoding//war/WEB-INF/ingresar.jsp=UTF-8
+encoding//war/WEB-INF/masajes.jsp=UTF-8

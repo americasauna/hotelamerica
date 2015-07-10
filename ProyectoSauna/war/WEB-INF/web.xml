@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xmlns="http://java.sun.com/xml/ns/javaee"
-xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
-xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
-http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
 	<servlet>
 		<servlet-name>ProyectoSauna</servlet-name>
 		<servlet-class>sauna.ProyectoSaunaServlet</servlet-class>
@@ -14,14 +14,122 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 	
 	<servlet>
-		<servlet-name>ProyectoSauna</servlet-name>
+		<servlet-name>home</servlet-name>
+		<servlet-class>sauna.Inicio</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>home</servlet-name>
+		<url-pattern>/inicio</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>service</servlet-name>
+		<servlet-class>sauna.Servicios</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>service</servlet-name>
+		<url-pattern>/servicios/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>hosp</servlet-name>
+		<servlet-class>sauna.Hospedaje</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>hosp</servlet-name>
+		<url-pattern>/servicios/hospedaje</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>sa</servlet-name>
+		<servlet-class>sauna.Sauna</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sa</servlet-name>
+		<url-pattern>/servicios/sauna</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>masaje</servlet-name>
+		<servlet-class>sauna.Masajes</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>masaje</servlet-name>
+		<url-pattern>/servicios/masaje</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>estetica</servlet-name>
+		<servlet-class>sauna.Estetica</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>estetica</servlet-name>
+		<url-pattern>/servicios/estetica</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>restaurant</servlet-name>
+		<servlet-class>sauna.Restaurant</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>restaurant</servlet-name>
+		<url-pattern>/servicios/restaurant</url-pattern>
+	</servlet-mapping>
+		
+	<servlet>
+		<servlet-name>reserv</servlet-name>
+		<servlet-class>sauna.Reservacion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>reserv</servlet-name>
+		<url-pattern>/reservacion</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>resH</servlet-name>
+		<servlet-class>sauna.RHotel</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>resH</servlet-name>
+		<url-pattern>/reservacion/hotel</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>resS</servlet-name>
+		<servlet-class>sauna.RSpa</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>resS</servlet-name>
+		<url-pattern>/reservacion/spa</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ing</servlet-name>
+		<servlet-class>sauna.Ingresar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ing</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>registr</servlet-name>
+		<servlet-class>sauna.Registro</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>registr</servlet-name>
+		<url-pattern>/registro</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ProyectoSauna1</servlet-name>
 		<servlet-class>sauna.GmailServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>ProyectoSauna</servlet-name>
+		<servlet-name>ProyectoSauna1</servlet-name>
 		<url-pattern>/gmail</url-pattern>
 	</servlet-mapping>
-	
+
 	<servlet>
 		<servlet-name>Vista</servlet-name>
 		<servlet-class>sauna.Vistas</servlet-class>
@@ -30,9 +138,100 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>Vista</servlet-name>
 		<url-pattern>/vistas</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>HospedajeReserva</servlet-name>
+		<servlet-class>sauna.HospedajeReserva</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HospedajeReserva</servlet-name>
+		<url-pattern>/hospedajereserva</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>g</servlet-name>
+		<servlet-class>sauna.Guardar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>g</servlet-name>
+		<url-pattern>/guardar</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Reservaciones</servlet-name>
+		<servlet-class>sauna.Reservaciones</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Reservaciones</servlet-name>
+		<url-pattern>/reservacionspa</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>Usuario</servlet-name>
+		<servlet-class>sauna.UsuarioServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Usuario</servlet-name>
+		<url-pattern>/usuario</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Close</servlet-name>
+		<servlet-class>sauna.CerrarSesion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Close</servlet-name>
+		<url-pattern>/1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Menu</servlet-name>
+		<servlet-class>sauna.MenuDirec</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Menu</servlet-name>
+		<url-pattern>/sauna</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>Adm</servlet-name>
+		<servlet-class>sauna.Admin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Adm</servlet-name>
+		<url-pattern>/adm.jsp</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>sugerence</servlet-name>
+		<servlet-class>sauna.Sugerencias</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sugerence</servlet-name>
+		<url-pattern>/sugerencias.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>visit</servlet-name>
+		<servlet-class>sauna.VisitasServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>visit</servlet-name>
+		<url-pattern>/visitas.do</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>idiom</servlet-name>
+		<servlet-class>sauna.IdiomaServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>idiom</servlet-name>
+		<url-pattern>/index.do</url-pattern>
+	</servlet-mapping>
 	
 	
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
 </web-app>
+
+
+

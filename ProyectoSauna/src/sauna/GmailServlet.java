@@ -44,7 +44,7 @@ public class GmailServlet extends HttpServlet {
 		 +"<br/>isUserLoggedIn retornó : "+us.isUserLoggedIn()
 		 +"<br/>getCurrentUser retornó : "+us.getCurrentUser()
 		 +"<br/>"
-		 +"<a href='"+ us.createLogoutURL(req.getRequestURI())+"'> Cerrar sesión </a>"
+		 +"<a href='"+ us.createLogoutURL(req.getRequestURI())+"'> Cerrar sesi�n </a>"
 		 + "</body></html>");
  	}
  }
